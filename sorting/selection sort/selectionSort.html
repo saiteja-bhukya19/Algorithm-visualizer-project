@@ -1,0 +1,40 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style_sort.css">
+    <title>Sorting | Selection Sort</title>
+</head>
+<body>
+	<div id="main">
+		<div id="container">
+			<div class="algo-container">
+				<div class="title">
+					<h1>Selection Sort</h1>
+				</div>
+			</div>
+			<div class="algo-container">
+				<a>
+				<div class="description">
+					<label for="input"><p>Enter the Array Elements:</p></label>
+					<input type="text" min = "-1000" max="1000" id="input">
+				</div>
+				<button type="Button" onclick="Add(); this.onclick=null" class ="button">Add</button>
+				<button type="Button" onclick="generateTable(arr); this.onclick=null" class="button">Selection Sort</button>
+				<button type="Button" onclick="window.location.reload(true)" class="button">Reset</button>
+				</a>
+			</div>
+			<div class="algo-container">
+				<p id = "Display"> </p>
+			</div>
+
+				<script src = "input.js"></script>
+				<script src = "generateTable.js"></script>
+				<script src = "selectionSort.js"></script>
+			</div>
+		</div>
+	</div>
+</body>
+</html></html>
